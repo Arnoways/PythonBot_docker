@@ -6,6 +6,7 @@ Setting up containers to be able to test features faster
 2. Clone this repo and move the files in the same directory you cloned PythonBot in.
 \nExample: 
     - mkdir biri
+    - cd biri
     - git clone git@github.com:DeJonge00/PythonBot.git
     - git clone git@github.com:Arnoways/PythonBot_docker.git
     - mv PythonBot_docker/docker-compose.yml .
