@@ -16,7 +16,7 @@ Setting up containers to be able to test features faster
 
 ## How-To:
 
-#### Start the containers
+### Start the containers
 If you just cloned the PythonBot repo, you need to have a secret folder containing "secrets.py" (PythonBot/secret/secrets.py).
 I'd recommend setting the environment variables in docker-compose.yml so you can acces them in secrets.py.
 Example:
