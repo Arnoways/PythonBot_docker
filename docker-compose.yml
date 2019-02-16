@@ -1,0 +1,21 @@
+version: "3"
+services:
+  biribiri:
+    build: .
+    volumes:
+      - ./PythonBot:/biri/PythonBot
+    environment:
+      - "DISCORD_TOKEN=undef"
+      - "MONGO_DB=mongodb"
+      - "MONGO_PASSWORD=undef"
+      - "MONGO_PORT=27017"
+      - "MONGO_USERNAME=undef"
+      - "OSU_KEY=undef"
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - "MONGO_INITDB_ROOT_USERNAME=undef"
+      - "MONGO_INITDB_ROOT_PASSWORD=undef"
