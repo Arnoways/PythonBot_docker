@@ -2,18 +2,10 @@
 Setting up containers to be able to test features faster
 
 ## Requirements
-1. Having a PythonBot repo cloned (https://github.com/DeJonge00/PythonBot)
-2. Clone this repo and move the files in the same directory you cloned PythonBot in.
-\nExample: 
-    - mkdir biri
-    - cd biri
-    - git clone git@github.com:DeJonge00/PythonBot.git
-    - git clone git@github.com:Arnoways/PythonBot_docker.git
-    - mv PythonBot_docker/docker-compose.yml .
-    - mv PythonBot_docker/Dockerfile .
-3. Verify PythonBot/requirements.txt is present.
-4. Having the font folder in the same directory you cloned this repo in.
-5. Having docker and docker-compose installed.
+1. Having docker and docker-compose installed.
+2. Clone this repo
+3. Modify and use [init_conf.sh](init_conf.sh) to download sources and put them in the right place.
+4. Make sure you have the requirements.txt file.
 
 ## How-To:
 
