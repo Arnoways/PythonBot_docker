@@ -1,7 +1,9 @@
 version: "3"
 services:
   biribiri:
-    build: .
+    build:
+      context: ./biribiri
+      dockerfile: Dockerfile
     volumes:
       - ./PythonBot:/biri/PythonBot
     environment:
