@@ -2,8 +2,8 @@
 
 set -e
 
-BIRI_REPO="https://github.com/DeJonge00/PythonBot.git"
-REPO_BRANCH="api"
+BIRI_REPO="https://github.com/DeJonge00/DiscordPythonBotRewrite.git"
+REPO_BRANCH="development"
 BIRI_FOLDER="biri"
 
 setting_up () {
@@ -14,7 +14,7 @@ setting_up () {
 
 download_sources () {
     git clone ${BIRI_REPO}
-    cd PythonBot
+    cd DiscordPythonBotRewrite
     git checkout ${REPO_BRANCH}
 }
 
