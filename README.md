@@ -43,4 +43,4 @@ e.g: docker-compose logs -f biribiri
   *find out container's id: docker-compose ps*
 
 ### Test the code you just modified
-The PythonBot folder is mounted as a volume directly in the container, so the code is the same. Howerver you might have to restart the application in order to see your modification.
+The PythonBot folder is mounted as a volume directly in the container, so the code is the same. However you might have to restart the application in order to see your modification.
