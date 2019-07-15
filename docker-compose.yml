@@ -5,7 +5,7 @@ services:
       context: ./biribiri
       dockerfile: Dockerfile
     volumes:
-      - ./PythonBot:/biri/PythonBot
+      - ./biribiri/DiscordPythonBotRewrite:/biri/DiscordPythonBotRewrite
     environment:
       - "DISCORD_TOKEN=undef"
       - "MONGO_DB=mongodb"
